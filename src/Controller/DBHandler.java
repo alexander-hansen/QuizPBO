@@ -17,8 +17,8 @@ import javax.swing.JOptionPane;
 public class DBHandler {
     public Connection con;
     private String driver = "com.mysql.cj.jdbc.Driver";
-//    private String url = "jdbc:mysql://localhost/db_test";
-    private String url = "jdbc:mysql://localhost/PBO?serverTimezone=" + TimeZone.getDefault().getID();
+    private String url = "jdbc:mysql://localhost/quiz_PBO";
+//    private String url = "jdbc:mysql://localhost/PBO?serverTimezone=" + TimeZone.getDefault().getID();
     private String username = "root";
     private String password = "";
 
